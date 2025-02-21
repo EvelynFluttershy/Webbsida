@@ -13,3 +13,9 @@ nav {
 .grid div {
     text-align: center;
 }
+
+@media (max-width: 35rem) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
