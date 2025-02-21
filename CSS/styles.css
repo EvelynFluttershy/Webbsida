@@ -25,6 +25,12 @@ nav {
     background-color: deeppink;
     color: white;
 }
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 160rem;
+    margin: 0 auto;
+}
 
 @media (max-width: 35rem) {
     .grid {
