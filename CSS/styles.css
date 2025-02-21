@@ -40,16 +40,18 @@ article {
     background-color: white;
 }
 
-@media (max-width: 60rem) { /* för smalare fönster */
+@media (max-width: 60rem) { /* max 960 px - för något mindre fönster */
     section {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 35rem) { /* för smal mobil skärm */
-    .grid {
+@media (max-width: 45rem) { /* max 720 px - för mindre fönster */
+    section {
         grid-template-columns: 1fr;
     }
-    section {
+}
+@media (max-width: 35rem) { /* max 560 px - för mobiler */
+    .grid {
         grid-template-columns: 1fr;
     }
 }
