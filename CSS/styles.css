@@ -19,8 +19,11 @@ nav {
 .grid div a {
     width: 100%;
     display: block;
-    text-decoration: none;
-    color: firebrick;
+    color: deeppink;
+}
+.grid div a:hover {
+    background-color: deeppink;
+    color: white;
 }
 
 @media (max-width: 35rem) {
