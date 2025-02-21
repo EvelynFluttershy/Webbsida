@@ -10,6 +10,7 @@ nav {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5rem;
     max-width: 60rem;
     margin: 0 auto;
 }
@@ -28,9 +29,14 @@ nav {
 }
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
     max-width: 160rem;
     margin: 0 auto;
+    background-color: lightgray;
+}
+article {
+    background-color: white;
 }
 
 @media (max-width: 35rem) {
