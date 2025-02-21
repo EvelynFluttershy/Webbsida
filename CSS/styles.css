@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+}
 nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 100rem;
+    width: 100%
 }
 nav div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60rem;
+}
+nav div div {
     text-align: center;
 }
