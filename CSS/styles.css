@@ -2,13 +2,14 @@ body {
     margin: 0;
 }
 nav {
-    width: 100%
+    width: 100%;
+    text-align: center;
 }
-nav div {
+.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 60rem;
 }
-nav div div {
+.grid div {
     text-align: center;
 }
