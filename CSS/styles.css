@@ -1,4 +1,8 @@
 nav {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 100rem;
+}
+nav div {
+    text-align: center;
 }
