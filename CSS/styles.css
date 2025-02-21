@@ -19,6 +19,7 @@ nav {
 .grid div a {
     width: 100%;
     display: block;
+    padding: 0.25rem 0;
     color: deeppink;
 }
 .grid div a:hover {
@@ -35,5 +36,8 @@ section {
 @media (max-width: 35rem) {
     .grid {
         grid-template-columns: 1fr;
+    }
+    section {
+        grid-template-columns: 1fr 1fr;
     }
 }
