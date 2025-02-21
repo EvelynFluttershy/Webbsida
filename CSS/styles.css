@@ -40,7 +40,7 @@ article {
     background-color: white;
 }
 
-@media (max-width: 60rem) { /* max 960 px - för något mindre fönster */
+@media (max-width: 75rem) { /* max 1200 px - för medelstora fönster */
     section {
         grid-template-columns: 1fr 1fr;
     }
